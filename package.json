@@ -1,0 +1,31 @@
+{
+  "name": "gnuradio-extension-pack",
+  "displayName": "GNURadio development pack",
+  "description": "Extension pack for GNURadio OOT development",
+  "version": "0.1.0",
+  "license": "MIT",
+  "publisher": "AsriFox",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AsriFox/vscode-gnuradio-extension-pack"
+  },
+  "icon": "imgs/gnuradio-icon.png",
+  "keywords": [
+    "gnuradio",
+    "radio",
+    "grc"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "asrifox.gnuradio-integration",
+    "ms-python.python",
+    "redhat.vscode-yaml",
+    "harrydowning.yaml-embedded-languages",
+    "vscode.git"
+  ]
+}
